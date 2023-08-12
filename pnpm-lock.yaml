@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  svelte-bricks:
+    specifier: ^0.2.0
+    version: 0.2.0
+
 devDependencies:
   '@floating-ui/dom':
     specifier: ^1.5.1
@@ -1978,6 +1983,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
+  /svelte-bricks@0.2.0:
+    resolution: {integrity: sha512-PPm4JkGFloaC1mB9v/M5QYtquxr8hWTo5OZtN+6+NfP58mxF1v5uSCMZ71TW0S/pjZdO2b2KL8+VU1r0mur0lg==}
+    dependencies:
+      svelte: 3.59.2
+    dev: false
+
   /svelte-check@3.5.0(postcss@8.4.27)(svelte@3.59.2):
     resolution: {integrity: sha512-KHujbn4k17xKYLmtCwv0sKKM7uiHTYcQvXnvrCcNU6a7hcszh99zFTIoiu/Sp/ewAw5aJmillJ1Cs8gKLmcX4A==}
     hasBin: true
@@ -2082,7 +2093,6 @@ packages:
   /svelte@3.59.2:
     resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}
     engines: {node: '>= 8'}
-    dev: true
 
   /tailwindcss@3.3.3:
     resolution: {integrity: sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==}
